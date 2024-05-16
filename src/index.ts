@@ -1,5 +1,4 @@
 import { registerPlugin } from '@capacitor/core';
-
 import type { CapdndPlugin } from './definitions';
 
 const Capdnd = registerPlugin<CapdndPlugin>('Capdnd', {
